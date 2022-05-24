@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Sourav957.github.io/memegenerator-react",
+  "homepage": "http://Sourav957.github.io/first-repo",
   "name": "memegenerator",
   "version": "0.1.0",
   "private": true,
@@ -40,5 +40,16 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sourav957/memegenerator-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sourav957/memegenerator-react/issues"
   }
 }
