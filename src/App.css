@@ -1,38 +1,96 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-container{
+  display: flex;
+  height: 65px;
+  width: 100vw;
+  align-items: center;
+  background: linear-gradient(90deg,#672280 1.18%,#A626D3 100%);
+  color:white;
+  padding: 15px 20px;
+  
+}
+.meme-logo{
+  width:50px;
+  margin: 8px;
+}
+.sm-heading{
+  font-size: 1.2rem;
+ font-weight: 500;
+
+}
+.meme-heading{
+  margin-right: auto;
+}
+
+/* styling the form */
+main{
+  padding: 50px;
+ 
+}
+.form{
+  display: grid;
+  grid-template: 40px 40px /1fr 1fr ;
+  gap: 17px;
+}
+.form-input{
+  border-radius: 7px;
   text-align: center;
+  font-size: 20px;
+  border:1px solid #D5D4D8;
+  font-family: 'Poppins', sans-serif;
+ font-family: 'Raleway', sans-serif;
+}
+.form-button{
+  grid-column: -3 /-1;
+  border-radius: 7px;
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;   
+background: linear-gradient(90deg,#672280 1.18%,#A626D3 100%);
+cursor: pointer;
+  
+  
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.meme--image{
+ width: 70%;
+ 
+  margin:30px 190px;
+  height: 37.5rem;
+  
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
+.meme-topText{
+align-self: center;
+position: absolute;
+top: 70px;
+font-size:50px;
+color:#d82b0c
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.meme-bottomText{
+  align-self: center;
+  font-size:50px;
+  position: absolute;
+  bottom: 100px;
+  color:#dc4d0a
+}
+@media only screen and (max-width: 470px){
+  .header-container{
+    width: 555px;
   }
-  to {
-    transform: rotate(360deg);
+  .meme--image{
+    margin: 5px;
+    width: 600px;
   }
 }
